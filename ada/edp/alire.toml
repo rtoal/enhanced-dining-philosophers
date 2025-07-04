@@ -1,0 +1,9 @@
+name = "edp"
+description = "Enhanced Dining Philosophers"
+version = "0.1.0-dev"
+
+authors = ["rtoal"]
+maintainers = ["rtoal <example@example.com>"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
