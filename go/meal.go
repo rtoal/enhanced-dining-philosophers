@@ -50,10 +50,10 @@ func RandomMeal() Meal {
 func (m Meal) String() string {
 	text := m.entree
 	if m.soup != "No soup" {
-		text += " with " + m.soup
+		text += " & " + m.soup
 	}
 	if m.dessert != "No dessert" {
-		text += " then " + m.dessert
+		text += " & " + m.dessert
 	}
 	return text
 }

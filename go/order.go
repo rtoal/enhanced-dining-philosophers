@@ -31,7 +31,11 @@ func NewOrder(philosopher string, reply chan *Order) *Order {
 }
 
 func (o *Order) MealString() string {
-	return fmt.Sprintf("Order #%d %s", o.Id, o.Meal)
+	var status string
+	if o.Cancelled {
+		status = "Cancelled "
+	}
+	return fmt.Sprintf("%sOrder #%d %s", status, o.Id, o.Meal)
 }
 
 func (o Order) ForString() string {
