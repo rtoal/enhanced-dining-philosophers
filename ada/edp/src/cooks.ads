@@ -15,10 +15,10 @@
 --
 --  Behavior:
 --
---    First the cook waits for a name, then reports to work.  After that, she
+--    First the cook waits for a name, then reports to work.  After that, they
 --    repeatedly: receives an order (from a waiter), cooks it, then puts it un-
---    der the heat lamp.  After every fourth meal, she goes on a coffee break.
---    While waiting for an order from a waiter, she might get a pink slip.
+--    der the heat lamp.  After every fourth meal, they go on a coffee break.
+--    While waiting for an order from a waiter, they might get a pink slip.
 --
 --  Termination:
 --

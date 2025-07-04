@@ -10,7 +10,7 @@ package body Buffers is
 
       entry Read (I : out Item) when Count > 0 is
       begin
-         I := Data (Front);               -- copy the element out
+         I := Data (Front);               -- element to be returned
          Front := (Front + 1) mod Size;   -- position Front to new front
          Count := Count - 1;              -- note that now one less item
       end Read;

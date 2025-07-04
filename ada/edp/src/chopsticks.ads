@@ -6,8 +6,8 @@
 --
 --  Entries:
 --
---    Pick_Up    call this to pick the chopstick up.
---    Put_Down   call this to put the chopstick down.
+--    Pick_Up     call this to pick the chopstick up.
+--    Put_Down    call this to put the chopstick down.
 --
 --  Behavior:
 --

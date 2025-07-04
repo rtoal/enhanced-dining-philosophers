@@ -26,16 +26,6 @@
 --    The host keeps track of how many philosophers are alive. When this count
 --    reaches zero, he will fire all the cooks and then subsequently terminate
 --    himself.
---
---  Note:
---
---   The use of a host in the Dining Philosophers Problem is controversial be-
---   cause the system  relies on the "ethics" of our  philosophers. The phil-
---   osophers must be honest and always use the host to enter and leave, and
---   always inform the host that they are dead (or terminally ill and unable
---   to eat again!) One advantage, though, of having the philosophers inform-
---   ing the host of their death is that the host does not need to poll to see
---   how many philosophers are alive.
 ------------------------------------------------------------------------------
 
 package Host is

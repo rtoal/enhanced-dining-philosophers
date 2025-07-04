@@ -11,8 +11,8 @@ package body Cooks is
 
    task body Cook is
 
-      My_Name       : Unbounded_String;     -- Identification of the cook
-      Current_Order : Order;                -- What she's currently preparing
+      My_Name       : Unbounded_String;     -- Identification
+      Current_Order : Order;                -- What's being prepared
 
       procedure Cook_The_Order is
       begin

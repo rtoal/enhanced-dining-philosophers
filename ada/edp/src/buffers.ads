@@ -2,8 +2,7 @@
 --  buffers.ads
 --
 --  A generic package for bounded, blocking FIFO queues (buffers). It exports
---  a proected type called 'Buffer'. Note that the maximum size of any buffer
---  of this type is taken from a single generic package parameter.
+--  a protected type Buffer whose capacity is given by a generic parameter.
 --
 --  Generic Parameters:
 --
