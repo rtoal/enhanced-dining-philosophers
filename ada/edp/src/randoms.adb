@@ -47,12 +47,13 @@ package body Randoms is
    --  manner.
 
    function Random (X, Y : Integer) return Integer is
-      R : Float := Random(G);
+      R : Float := Random (G);
    begin
       while R = 1.0 loop
          R := Random (G);
       end loop;
-      return Integer(Float'Floor(Float(X) - Float(X)*R + Float(Y)*R + R));
+      return Integer (
+         Float'Floor (Float (X) - Float (X) * R + Float (Y) * R + R));
    end Random;
 
    --  Random values in a discrete range are easy to generate; we just get a

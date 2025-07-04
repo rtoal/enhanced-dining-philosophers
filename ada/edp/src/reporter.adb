@@ -10,7 +10,7 @@ use Ada.Text_IO;
 package body Reporter is
 
    protected Output is
-      procedure Send (Message: String);
+      procedure Send (Message : String);
    end Output;
 
    protected body Output is

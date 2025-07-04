@@ -29,7 +29,7 @@ package body Philosophers is
       Right := (Chopstick_Name'Pos (Left) + 1) mod (Chopstick_Name'Last + 1);
 
       while Wealth > 0.0 loop
-         Norman_Bates.Enter;
+         Ryuk.Enter;
          Report (My_Name & " enters the cafe");
          Report (My_Name & " is thinking");
          delay Duration (Random (1, 3));
@@ -60,10 +60,10 @@ package body Philosophers is
          end if;
 
          Report (My_Name & " leaves the restaurant");
-         Norman_Bates.Leave;
+         Ryuk.Leave;
       end loop;
       Report (My_Name & " died a normal death from overeating");
-      Norman_Bates.Death_Announcement;
+      Ryuk.Death_Announcement;
    exception
       when others => Report ("Error: " & My_Name & " dead unexpectedly");
    end Philosopher;

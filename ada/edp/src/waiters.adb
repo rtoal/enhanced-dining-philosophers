@@ -54,7 +54,7 @@ package body Waiters is
 
       Report_For_Work;
 
-      while not Norman_Bates'Terminated loop
+      while not Ryuk'Terminated loop
          select
             accept Place_Order (
                   An_Order : Order;
